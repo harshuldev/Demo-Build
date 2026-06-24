@@ -19,6 +19,7 @@ import FAQ from "@/components/FAQ";
 import CTABanner from "@/components/CTABanner";
 import Contact from "@/components/Contact";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
+import WebsiteOffer from "@/components/WebsiteOffer";
 
 export default function HomePage() {
   return (
@@ -71,6 +72,9 @@ export default function HomePage() {
 
       {/* 11. CTA banner */}
       <CTABanner />
+
+      {/* 11.5 Website offer */}
+      <WebsiteOffer />
 
       {/* 12. Contact form */}
       <AnimateOnScroll>
