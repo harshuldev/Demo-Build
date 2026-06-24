@@ -1,0 +1,190 @@
+/* =============================================================
+   hero.css  –  Hero section styles
+   ============================================================= */
+
+.hero {
+  background: linear-gradient(
+    160deg,
+    var(--color-bg) 0%,
+    var(--color-accent-light) 60%,
+    var(--color-bg) 100%
+  );
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+  }
+}
+
+/* Decorative background blob */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  right: -15%;
+  width: 55%;
+  height: 80%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(29, 78, 216, 0.08) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .hero__inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+/* ── Text column ── */
+.hero__content {
+  animation: fadeInUp 0.65s ease-out both;
+}
+
+.hero__badge {
+  margin-bottom: 1.25rem;
+}
+
+.hero__headline {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5.5vw, 3.5rem);
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.25rem;
+}
+
+.hero__headline span {
+  color: var(--color-accent);
+  position: relative;
+  display: inline-block;
+}
+
+/* Underline accent on highlighted word */
+.hero__headline span::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: var(--color-accent);
+  border-radius: var(--radius-full);
+  opacity: 0.35;
+}
+
+.hero__description {
+  font-size: clamp(1rem, 2.2vw, 1.125rem);
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  margin-bottom: 2rem;
+  max-width: 46ch;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+  align-items: center;
+}
+
+.hero__trust-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.hero__trust-stars {
+  display: flex;
+  gap: 0.15rem;
+  color: var(--color-star);
+  font-size: 0.875rem;
+}
+
+/* ── Image column ── */
+.hero__image {
+  animation: fadeInUp 0.65s 0.15s ease-out both;
+}
+
+.hero__img-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  max-height: 480px;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+@media (min-width: 1024px) {
+  .hero__img-placeholder {
+    aspect-ratio: 1 / 1;
+    max-height: none;
+  }
+}
+
+/* ── Floating stat cards ── */
+.hero__stat-card {
+  position: absolute;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 0.75rem 1.125rem;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  animation: fadeIn 0.8s 0.5s ease-out both;
+  pointer-events: none;
+}
+
+.hero__stat-card--tl {
+  top: 8%;
+  left: 4%;
+}
+
+.hero__stat-card--br {
+  bottom: 8%;
+  right: 4%;
+}
+
+.hero__stat-icon {
+  font-size: 1.5rem;
+}
+
+.hero__stat-value {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: var(--color-text-primary);
+  line-height: 1;
+}
+
+.hero__stat-label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 0.2rem;
+}
+
+/* ── Image wrapper needs relative for stat cards ── */
+.hero__image-wrapper {
+  position: relative;
+}
