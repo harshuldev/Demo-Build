@@ -22,7 +22,7 @@ import { useState, useEffect, useCallback } from "react";
 /* ── Config – edit these values ── */
 const BUSINESS_INITIAL = "B";
 const BUSINESS_NAME = "Business Name";
-const BUSINESS_TAGLINE = "Electrician Services";
+const BUSINESS_TAGLINE = "[Service Name]";
 
 const NAV_LINKS = [
   { label: "Home", href: "/#home" },

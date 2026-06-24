@@ -34,7 +34,7 @@ export default function Hero() {
             {/* Main headline - replace with real business tagline */}
             <h1 className="hero__headline">
               Your Professional{" "}
-              <span>Electrician</span>
+              <span>[Service Name]</span>
               {" "}Experts
             </h1>
 
