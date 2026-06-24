@@ -31,18 +31,18 @@ export default function Hero() {
               <span className="badge">⭐ Trusted by 500+ Customers</span>
             </div>
 
-            {/* Main headline — replace with real business tagline */}
+            {/* Main headline - replace with real business tagline */}
             <h1 className="hero__headline">
               Your Professional{" "}
               <span>Local Service</span>
               {" "}Experts
             </h1>
 
-            {/* Supporting paragraph — replace with real copy */}
+            {/* Supporting paragraph - replace with real copy */}
             <p className="hero__description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. We
               deliver high-quality, professional services to homes and businesses
-              across the local area. Placeholder text — replace with your real
+              across the local area. Placeholder text - replace with your real
               business description.
             </p>
 

@@ -44,7 +44,7 @@ export default function Gallery() {
         <div className="gallery__grid">
           {GALLERY_ITEMS.map((item, index) => (
             <div className="gallery__item" key={index} tabIndex={0}>
-              {/* Image placeholder — replace with <Image /> */}
+              {/* Image placeholder - replace with <Image /> */}
               <ImagePlaceholder
                 className="gallery__img-placeholder"
                 label={item.label}

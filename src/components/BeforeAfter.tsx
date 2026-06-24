@@ -39,7 +39,7 @@ export default function BeforeAfter() {
           <div className="before-after__panel">
             <ImagePlaceholder
               className="before-after__img-placeholder"
-              label="BEFORE — Original State"
+              label="BEFORE - Original State"
             />
             <span className="before-after__label">Before</span>
           </div>
@@ -53,7 +53,7 @@ export default function BeforeAfter() {
           <div className="before-after__panel">
             <ImagePlaceholder
               className="before-after__img-placeholder"
-              label="AFTER — Completed Work"
+              label="AFTER - Completed Work"
             />
             <span className="before-after__label before-after__label--after">
               After

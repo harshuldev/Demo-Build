@@ -2,7 +2,7 @@
  * page.tsx  –  Home page
  *
  * Assembles all section components in order.
- * Each section is a self-contained component — edit
+ * Each section is a self-contained component - edit
  * the section files in /components/ to change content.
  */
 

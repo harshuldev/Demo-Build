@@ -44,7 +44,7 @@ export default function WhyChooseUs() {
           <h2 className="section-title">Why Choose Business Name?</h2>
           <div className="divider" />
           <p className="section-subtitle">
-            Placeholder text — replace with a brief, benefit-led paragraph
+            Placeholder text - replace with a brief, benefit-led paragraph
             explaining what sets your business apart from the competition.
           </p>
         </div>

@@ -43,7 +43,7 @@ export default function About() {
             <p className="about__body">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Placeholder text — replace with your real business story.
+              Placeholder text - replace with your real business story.
             </p>
             <p className="about__body">
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris

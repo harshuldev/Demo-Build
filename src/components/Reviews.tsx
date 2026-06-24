@@ -19,7 +19,7 @@ import { useRef } from "react";
 const OVERALL_RATING = "4.9";
 const TOTAL_REVIEWS = "127";
 
-/* ── Review data — replace with real reviews ── */
+/* ── Review data - replace with real reviews ── */
 const REVIEWS = [
   {
     name: "Customer Name",

@@ -14,32 +14,32 @@ import { useState } from "react";
 
 const FAQ_ITEMS = [
   {
-    question: "Placeholder question one — What services do you offer?",
+    question: "Placeholder question one - What services do you offer?",
     answer:
       "Replace this with a real answer. Describe your full range of services clearly, using keywords that your customers might search for. Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt.",
   },
   {
-    question: "Placeholder question two — What areas do you cover?",
+    question: "Placeholder question two - What areas do you cover?",
     answer:
       "Replace with the real service area. List the towns, cities, or postcodes you serve. Covering a specific geographic area helps with local SEO and sets clear expectations for potential customers.",
   },
   {
-    question: "Placeholder question three — How do I get a quote?",
+    question: "Placeholder question three - How do I get a quote?",
     answer:
       "Replace with your real quoting process. E.g. 'Fill in the contact form below, call us directly, or email us. We aim to respond within 24 hours with a detailed, no-obligation quote.'",
   },
   {
-    question: "Placeholder question four — Are you fully insured?",
+    question: "Placeholder question four - Are you fully insured?",
     answer:
       "Replace with details of your insurance and qualifications. Customers need reassurance that you are insured, qualified, and that their property is protected during and after the work.",
   },
   {
-    question: "Placeholder question five — How long does work typically take?",
+    question: "Placeholder question five - How long does work typically take?",
     answer:
       "Replace with honest timeframe estimates for your most common jobs. Being transparent about timescales builds trust and reduces anxiety for customers who are planning around the work.",
   },
   {
-    question: "Placeholder question six — Do you offer a guarantee?",
+    question: "Placeholder question six - Do you offer a guarantee?",
     answer:
       "Replace with details of any warranty or guarantee you offer. A workmanship guarantee is a powerful selling point and gives customers peace of mind when choosing between providers.",
   },

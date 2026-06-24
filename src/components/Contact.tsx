@@ -50,7 +50,7 @@ export default function Contact() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  /* Demo-only handler — replace with real API call */
+  /* Demo-only handler - replace with real API call */
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);

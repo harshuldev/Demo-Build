@@ -30,8 +30,8 @@ http://localhost:3000
 ```
 src/
 ├── app/
-│   ├── layout.tsx          # Root layout — imports all CSS files
-│   └── page.tsx            # Home page — assembles all sections
+│   ├── layout.tsx          # Root layout - imports all CSS files
+│   └── page.tsx            # Home page - assembles all sections
 │
 ├── components/
 │   ├── Navbar.tsx          # Sticky nav + mobile hamburger menu
@@ -46,7 +46,7 @@ src/
 │   ├── Reviews.tsx         # Horizontally scrolling review carousel
 │   ├── FAQ.tsx             # Accordion FAQ
 │   ├── CTABanner.tsx       # Full-width gradient CTA
-│   ├── Contact.tsx         # Contact form (demo only — no backend)
+│   ├── Contact.tsx         # Contact form (demo only - no backend)
 │   ├── Footer.tsx          # Full site footer
 │   ├── ImagePlaceholder.tsx # Reusable image placeholder box
 │   └── AnimateOnScroll.tsx  # IntersectionObserver animation wrapper
@@ -140,7 +140,7 @@ In `Reviews.tsx`, update the `REVIEWS` array with real customer review data.
 | xl    | ≥ 1280px  | Desktops            |
 | 2xl   | ≥ 1536px  | Large screens       |
 
-The layout is **mobile-first** — base styles target small phones and scale up.
+The layout is **mobile-first** - base styles target small phones and scale up.
 
 ---
 

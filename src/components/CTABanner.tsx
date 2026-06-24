@@ -26,7 +26,7 @@ export default function CTABanner() {
           {/* Supporting copy */}
           <p className="cta-banner__sub">
             Lorem ipsum dolor sit amet consectetur. Replace this placeholder with
-            a compelling reason to act now — e.g. limited availability, a free
+            a compelling reason to act now - e.g. limited availability, a free
             survey, or a satisfaction guarantee.
           </p>
 

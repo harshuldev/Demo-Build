@@ -42,7 +42,7 @@ export default function Process() {
           <div className="divider" />
           <p className="section-subtitle">
             Getting started is easy. Here&apos;s what to expect when you choose
-            Business Name — replace this with your real process description.
+            Business Name - replace this with your real process description.
           </p>
         </div>
 
